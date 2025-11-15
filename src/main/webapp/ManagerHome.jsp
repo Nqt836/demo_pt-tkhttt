@@ -12,6 +12,8 @@
     <title>Manager Home</title>
 </head>
 <body>
+    <h2>Manager Home</h2>
+
     <p>Manager Name: <%= manager.getFullname() %></p>
     <p>ID: <%= manager.getUserId() %></p>
     <p>Position: <%= manager.getJobPosition() %></p>

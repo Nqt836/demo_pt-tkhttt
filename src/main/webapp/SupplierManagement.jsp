@@ -6,6 +6,8 @@
     <title>Supplier Management</title>
 </head>
 <body>
+    <h2>Supplier Management</h2>
+
     <form action="doListSupplier.jsp" method="get">
         <label>Supplier Name:</label>
         <label>
@@ -17,7 +19,7 @@
             <input type="text" name="addedDate">
         </label>
 
-        <input type="submit" name="View">
+        <input type="submit" value="View">
     </form>
 
     <hr>
