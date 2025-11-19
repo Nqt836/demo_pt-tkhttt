@@ -75,8 +75,8 @@ public class SupplierDAO extends DAO {
             ps.setString(1, supplier.getSupplierId());
             ps.setString(2, supplier.getSupplierName());
             ps.setString(3, supplier.getAddress());
-            ps.setString(4, supplier.getPhone());
-            ps.setString(5, supplier.getEmail());
+            ps.setString(4, supplier.getEmail());
+            ps.setString(5, supplier.getPhone());
             ps.setString(6, supplier.getAddedDate());
             ps.setString(7, supplier.getTaxCode());
             ps.setString(8, supplier.getDescription());
