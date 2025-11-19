@@ -1,5 +1,16 @@
 <%@ page import="com.demo.model.Manager" %>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" language="java" %>
+<%
+    String successMsg = (String) session.getAttribute("successMessage");
+    if (successMsg != null) {
+%>
+<div style="color: green; font-weight: bold; border: 1px solid green; padding: 10px; margin: 10px 0;">
+    <%= successMsg %>
+</div>
+<%
+        session.removeAttribute("successMessage"); // Xóa ngay sau khi hiện
+    }
+%>
 
 <html>
 <head>
